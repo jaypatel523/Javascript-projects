@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins&family=Prompt:wght@300&family=Roboto:wght@500&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat:wght@300;400;500;600&family=Poppins&family=Prompt:wght@300&family=Roboto:wght@500&family=Stylish&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+button{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+
+.q-part{
+    display: none;
+}
+
+
+
+.header{
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.start{
+    background-color: yellow;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+
+.score, .wrong{
+    cursor: pointer;
+    background-color: green;
+    color:  white;
+    border: none;
+    display: none;
+    padding: 1rem;
+}
+
+.question{
+    font-family: 'Gulzar', serif;
+    line-height: 3rem;
+    padding: 1rem;
+    margin: 3rem 0;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    padding: 2rem;
+    text-align: center;
+}
+
+.submit button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(0, 182, 254);
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s;
+}
+
+.submit button:hover{
+    background-color: rgb(0, 146, 204);
+}
+
+
+

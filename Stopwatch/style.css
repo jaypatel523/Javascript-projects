@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins&family=Prompt:wght@300&family=Roboto:wght@500&family=Stylish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stylish', sans-serif;
+}
+
+
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 1rem;
+}
+.container > h1{
+    margin: 1rem 0;
+}
+.container .time{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 1rem 1.5rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.container #start:hover{
+    background-color: green;
+}
+.container #stop:hover{
+    background-color: red;
+}
+.container #reset:hover{
+    background-color: yellow;
+}
+
+
+
+
+/* media query */
+
+@media (max-width: 1020px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

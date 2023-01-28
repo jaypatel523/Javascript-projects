@@ -1,0 +1,36 @@
+[
+    {
+        "id" : "0",
+        "question" : "console.log( typeof NaN )",
+        "option" : [
+            {"op" : "NaN", "iscorrect" : false},
+            {"op" : "number", "iscorrect" : true},
+            {"op" : "null", "iscorrect" : false},
+            {"op" : "undefined", "iscorrect" : false}
+        ]
+    },
+    {
+        "id" : "1",
+        "question" : "console.log( 1 + \"2\" + \"2\" )",
+        "option" : [
+            {"op" : "122", "iscorrect" : true},
+            {"op" : "32", "iscorrect" : false},
+            {"op" : "NaN2", "iscorrect" : false},
+            {"op" : "NaN", "iscorrect" : false}
+        ]
+    }
+    ,
+    {
+        "id" : "2",
+        "question" : "console.log( typeof typeof 1 )",
+        "option" : [
+            {"op" : "number", "iscorrect" : false},
+            {"op" : "string", "iscorrect" : true},
+            {"op" : "1", "iscorrect" : false},
+            {"op" : "2", "iscorrect" : false}
+        ]
+    }
+]
+
+
+

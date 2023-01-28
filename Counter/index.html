@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Counter </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 2rem;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+        }
+        button{
+            padding: 1rem;
+            background-color: black;
+            color:  white;
+            border: none;
+            border-radius: 10%;
+        }
+        input{
+            padding: 1rem;
+            width: 200px;
+            margin: 0 1rem;
+            text-align: center;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div> <button class="btn1"> + </button> </div>
+        <div> <input type="text" name="" id="screen"> </div>
+        <div> <button class="btn2"> - </button> </div>
+    </div>
+
+
+    <script>
+        let plusOne = document.querySelector(".btn1");
+        let minusOne = document.querySelector(".btn2");
+
+        let screen = document.getElementById("screen");
+        screen.value = 0;
+
+        // click
+        // plusOne.addEventListener("click", function(){
+        //     screen.value++;
+        // })
+        // minusOne.addEventListener("click", function(){
+        //     screen.value--;
+        // })
+
+        // mouseover
+        plusOne.addEventListener("mouseover", function(){
+            screen.value++;
+        })
+        minusOne.addEventListener("mouseover", function(){
+            screen.value--;
+        })
+        
+        
+        
+    </script>
+
+</body>
+</html>

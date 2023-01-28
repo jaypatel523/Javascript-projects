@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins&family=Prompt:wght@300&family=Roboto:wght@500&display=swap');
+
+
+
+
+:root{
+    --darkPink:rgb(253, 118, 231);
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+
+
+
+
+
+li{
+    list-style: none;
+}
+button{
+    color: black;
+    font-size: 2rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* --------------------------------------- Header ------------------------------------------- */
+.header{
+    background-color: rgb(254, 188, 243);
+    padding: 2rem;
+}
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .navbar h1{
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.header .navbar ul{
+    display: flex;
+}
+.header .navbar ul li{
+    min-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header .navbar ul li button{
+    background-color: rgb(254, 188, 243);
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.header .navbar ul li button:hover{
+    background-color: var(--darkPink);
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------ images --------------------------------------- */
+img{
+    width: 350px;
+    height: 250px;
+}
+.images{
+    margin-top: 1rem;
+}
+.images .container .ice, .cake, .sweet{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    text-align: center;
+}
+.images .container .box{
+    display: flex;
+    flex-direction: column;
+}
+.images h1{
+    background-color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
